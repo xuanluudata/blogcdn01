@@ -1,0 +1,96 @@
+---
+title: "Apache Airflow: Người Chỉ Huy Tận Tụy Cho Data Workflow"
+date: 2024-05-21
+author: Data Architect
+category: data-eng
+lang: vi
+tags: [data-engineering, python, pipeline]
+excerpt: Tìm hiểu cách Apache Airflow cách mạng hóa việc quản lý các đường ống dữ liệu (Data Pipelines) phức tạp bằng mã nguồn Python.
+pinned: true
+---
+
+# Giới thiệu về Apache Airflow
+
+Trong thế giới của Data Engineering, việc quản lý hàng trăm quy trình xử lý dữ liệu (ETL/ELT) không chỉ đơn thuần là chạy các đoạn script. Bạn cần biết:
+- Script nào chạy lỗi?
+- Tại sao nó lỗi?
+- Làm sao để chạy lại (retry) một phần mà không phải bắt đầu từ đầu?
+
+Đó chính là lý do **Apache Airflow** ra đời.
+
+## 1. Apache Airflow là gì?
+
+**Apache Airflow** là một nền tảng mã nguồn mở dùng để lập lịch, điều phối và giám sát các quy trình công việc (workflows). 
+
+Điểm khác biệt lớn nhất của Airflow so với các công cụ lập lịch truyền thống (như Cron) là nó sử dụng **Python** để định nghĩa các workflow dưới dạng **DAG (Directed Acyclic Graph)**.
+
+---
+
+## 2. Các thành phần chính của Kiến trúc Airflow
+
+Một hệ thống Airflow tiêu chuẩn bao gồm:
+
+* **Scheduler:** Đóng vai trò bộ não, kiểm tra khi nào các task cần chạy và gửi chúng đến executor.
+* **Web Server:** Giao diện đồ họa (UI) để người dùng theo dõi, quản lý và debug.
+* **Metadata Database:** Lưu trữ thông tin về trạng thái của các task, lịch sử chạy, biến môi trường...
+* **Executor:** Cách thức thực thi task (có thể chạy ngay trong Scheduler hoặc phân tán ra các Worker).
+
+---
+
+## 3. Khái niệm cốt lõi: DAG, Operator và Task
+
+Để làm việc với Airflow, bạn cần nắm vững bộ ba này:
+
+1.  **DAG (Directed Acyclic Graph):** Là một đồ thị có hướng, không chu trình. Nó đại diện cho toàn bộ quy trình làm việc của bạn.
+2.  **Operator:** Là các "khuôn mẫu" cho một công việc. Ví dụ: `BashOperator` để chạy lệnh Linux, `PythonOperator` để chạy hàm Python, `MySqlOperator` để truy vấn DB.
+3.  **Task:** Một phiên bản thực thi cụ thể của Operator trong một DAG.
+
+---
+
+## 4. Ví dụ một DAG đơn giản
+
+Dưới đây là ví dụ về một workflow gồm 2 bước: In ra dòng chữ "Hello" và sau đó in ra ngày giờ hiện tại.
+
+```python
+from airflow import DAG
+from airflow.operators.bash import BashOperator
+from datetime import datetime, timedelta
+
+default_args = {
+    'owner': 'airflow',
+    'retries': 2,
+    'retry_delay': timedelta(minutes=5),
+}
+
+with DAG(
+    dag_id='example_blog_dag',
+    default_args=default_args,
+    description='Một DAG ví dụ cho blog',
+    schedule_interval='@daily',
+    start_date=datetime(2024, 5, 1),
+    catchup=False,
+) as dag:
+
+    t1 = BashOperator(
+        task_id='print_hello',
+        bash_command='echo "Chào mừng bạn đến với Airflow!"',
+    )
+
+    t2 = BashOperator(
+        task_id='print_date',
+        bash_command='date',
+    )
+
+    # Thiết lập phụ thuộc: t1 chạy xong rồi mới đến t2
+    t1 >> t2
+```
+
+## 5. Tại sao bạn nên sử dụng Airflow?
+- Mở rộng dễ dàng (Scalability): Có thể chạy hàng ngàn task cùng lúc với Kubernetes.
+- Tính linh hoạt: Vì viết bằng Python, bạn có thể tích hợp với bất kỳ API hay cơ sở dữ liệu nào
+- Khả năng quan sát (Observability): Giao diện UI cực kỳ chi tiết, giúp bạn nhìn thấy lỗi ở task nào ngay lập tức và xem logs chỉ bằng một cú click.
+
+## Kết luận
+Apache Airflow không chỉ dành cho các kỹ sư dữ liệu lớn. Bất kỳ ai cần tự động hóa các quy trình công việc lặp đi lặp lại một cách chuyên nghiệp đều nên tìm hiểu công cụ này.
+
+Bạn đã sẵn sàng để viết DAG đầu tiên của mình chưa? Hãy để lại bình luận nếu bạn có bất kỳ thắc mắc nào nhé!
