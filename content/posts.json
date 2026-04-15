@@ -1,48 +1,18 @@
 [
   {
-    "id": "llm-vi",
-    "title": "Ứng dụng LLM trong doanh nghiệp",
-    "date": "2024-03-23",
+    "id": "resource-tools-vi",
+    "title": "Top 10 công cụ Data FinOps tốt nhất năm 2024",
+    "date": "2024-05-23",
     "author": "Data Architect",
-    "category": "ai-eng",
+    "category": "data-finops",
     "lang": "vi",
-    "tags": ["ai", "llm", "enterprise"],
-    "excerpt": "Cách tích hợp các mô hình ngôn ngữ lớn vào quy trình kinh doanh.",
-    "path": "ai-eng/llm-vi.mdx"
-  },
-  {
-    "id": "intro-en",
-    "title": "Cloud Architecture Overview",
-    "date": "2024-03-20",
-    "author": "Data Architect",
-    "category": "cloud-arch",
-    "lang": "en",
-    "tags": ["cloud", "architecture", "overview"],
-    "excerpt": "Learn the fundamental principles of designing systems on the cloud.",
-    "path": "cloud-arch/intro-en.mdx"
-  },
-  {
-    "id": "intro-vi",
-    "title": "Tổng quan về Cloud Architecture",
-    "date": "2024-03-20",
-    "author": "Data Architect",
-    "category": "cloud-arch",
-    "lang": "vi",
-    "tags": ["cloud", "architecture", "overview"],
-    "excerpt": "Tìm hiểu các nguyên tắc cơ bản trong việc thiết kế hệ thống trên đám mây.",
-    "path": "cloud-arch/intro-vi.mdx"
-  },
-  {
-    "id": "airflow-vi",
-    "title": "Apache Airflow: Người Chỉ Huy Tận Tụy Cho Data Workflow",
-    "date": "2024-05-21",
-    "author": "Data Architect",
-    "category": "data-eng",
-    "lang": "vi",
-    "tags": ["data-engineering", "python", "pipeline"],
-    "excerpt": "Tìm hiểu cách Apache Airflow cách mạng hóa việc quản lý các đường ống dữ liệu (Data Pipelines) phức tạp bằng mã nguồn Python.",
-    "path": "data-eng/airflow-vi.mdx",
-    "pinned": true
+    "tags": [
+      "resource",
+      "data-finops",
+      "tools"
+    ],
+    "excerpt": "Đánh giá chi tiết các công cụ giúp tối ưu hóa chi phí dữ liệu trên Cloud.",
+    "path": "data-finops/resource-tools-vi.mdx"
   },
   {
     "id": "resource-learning-vi",
@@ -51,31 +21,59 @@
     "author": "Data Architect",
     "category": "data-eng",
     "lang": "vi",
-    "tags": ["resource", "data-engineering", "learning"],
+    "tags": [
+      "resource",
+      "data-engineering",
+      "learning"
+    ],
     "excerpt": "Danh sách các khóa học, sách và blog chất lượng nhất để bắt đầu hành trình trở thành Data Engineer.",
     "path": "data-eng/resource-learning-vi.mdx"
   },
   {
-    "id": "resource-tools-vi",
-    "title": "Top 10 công cụ Data FinOps tốt nhất năm 2024",
-    "date": "2024-05-23",
+    "id": "airflow-vi",
+    "title": "Apache Airflow: Người Chỉ Huy Tận Tụy Cho Data Workflow",
+    "date": "2024-05-21",
     "author": "Data Architect",
-    "category": "data-finops",
+    "category": "data-eng",
     "lang": "vi",
-    "tags": ["resource", "data-finops", "tools"],
-    "excerpt": "Đánh giá chi tiết các công cụ giúp tối ưu hóa chi phí dữ liệu trên Cloud.",
-    "path": "data-finops/resource-tools-vi.mdx"
+    "tags": [
+      "data-engineering",
+      "python",
+      "pipeline"
+    ],
+    "excerpt": "Tìm hiểu cách Apache Airflow cách mạng hóa việc quản lý các đường ống dữ liệu (Data Pipelines) phức tạp bằng mã nguồn Python.",
+    "path": "data-eng/airflow-vi.mdx",
+    "pinned": true
   },
   {
-    "id": "best-practices-en",
-    "title": "Golden Rules for DBA",
-    "date": "2024-03-21",
+    "id": "llm-vi",
+    "title": "Ứng dụng LLM trong doanh nghiệp",
+    "date": "2024-03-23",
     "author": "Data Architect",
-    "category": "dba",
-    "lang": "en",
-    "tags": ["dba", "database", "best-practices"],
-    "excerpt": "How to manage databases effectively and securely.",
-    "path": "dba/best-practices-en.mdx"
+    "category": "ai-eng",
+    "lang": "vi",
+    "tags": [
+      "ai",
+      "llm",
+      "enterprise"
+    ],
+    "excerpt": "Cách tích hợp các mô hình ngôn ngữ lớn vào quy trình kinh doanh.",
+    "path": "ai-eng/llm-vi.mdx"
+  },
+  {
+    "id": "pipeline-vi",
+    "title": "Xây dựng Data Pipeline với Python",
+    "date": "2024-03-22",
+    "author": "Data Architect",
+    "category": "data-eng",
+    "lang": "vi",
+    "tags": [
+      "data-engineering",
+      "python",
+      "pipeline"
+    ],
+    "excerpt": "Hướng dẫn xây dựng quy trình xử lý dữ liệu tự động.",
+    "path": "data-eng/pipeline-vi.mdx"
   },
   {
     "id": "best-practices-vi",
@@ -84,8 +82,277 @@
     "author": "Data Architect",
     "category": "dba",
     "lang": "vi",
-    "tags": ["dba", "database", "best-practices"],
+    "tags": [
+      "dba",
+      "database",
+      "best-practices"
+    ],
     "excerpt": "Làm thế nào để quản lý cơ sở dữ liệu hiệu quả và an toàn.",
     "path": "dba/best-practices-vi.mdx"
+  },
+  {
+    "id": "best-practices-en",
+    "title": "Golden Rules for DBA",
+    "date": "2024-03-21",
+    "author": "Data Architect",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "database",
+      "best-practices"
+    ],
+    "excerpt": "How to manage databases effectively and securely.",
+    "path": "dba/best-practices-en.mdx"
+  },
+  {
+    "id": "intro-vi",
+    "title": "Tổng quan về Cloud Architecture",
+    "date": "2024-03-20",
+    "author": "Data Architect",
+    "category": "cloud-arch",
+    "lang": "vi",
+    "tags": [
+      "cloud",
+      "architecture",
+      "overview"
+    ],
+    "excerpt": "Tìm hiểu các nguyên tắc cơ bản trong việc thiết kế hệ thống trên đám mây.",
+    "path": "cloud-arch/intro-vi.mdx"
+  },
+  {
+    "id": "intro-en",
+    "title": "Cloud Architecture Overview",
+    "date": "2024-03-20",
+    "author": "Data Architect",
+    "category": "cloud-arch",
+    "lang": "en",
+    "tags": [
+      "cloud",
+      "architecture",
+      "overview"
+    ],
+    "excerpt": "Learn the fundamental principles of designing systems on the cloud.",
+    "path": "cloud-arch/intro-en.mdx"
+  },
+  {
+    "id": "roadmap-zh",
+    "title": "Untitled",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/roadmap-zh.mdx"
+  },
+  {
+    "id": "roadmap-vi",
+    "title": "Untitled",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/roadmap-vi.mdx"
+  },
+  {
+    "id": "roadmap-kr",
+    "title": "Untitled",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/roadmap-kr.mdx"
+  },
+  {
+    "id": "roadmap-jp",
+    "title": "Untitled",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/roadmap-jp.mdx"
+  },
+  {
+    "id": "roadmap-en",
+    "title": "Untitled",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/roadmap-en.mdx"
+  },
+  {
+    "id": "resources-zh",
+    "title": "Untitled",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/resources-zh.mdx"
+  },
+  {
+    "id": "resources-vi",
+    "title": "Untitled",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/resources-vi.mdx"
+  },
+  {
+    "id": "resources-kr",
+    "title": "Untitled",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/resources-kr.mdx"
+  },
+  {
+    "id": "resources-jp",
+    "title": "Untitled",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/resources-jp.mdx"
+  },
+  {
+    "id": "resources-en",
+    "title": "Untitled",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/resources-en.mdx"
+  },
+  {
+    "id": "contact-zh",
+    "title": "联系",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "zh",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/contact-zh.mdx"
+  },
+  {
+    "id": "contact-vi",
+    "title": "Liên hệ",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/contact-vi.mdx"
+  },
+  {
+    "id": "contact-kr",
+    "title": "연락처",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "kr",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/contact-kr.mdx"
+  },
+  {
+    "id": "contact-jp",
+    "title": "お問い合わせ",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "jp",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/contact-jp.mdx"
+  },
+  {
+    "id": "contact-en",
+    "title": "Contact",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "en",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/contact-en.mdx"
+  },
+  {
+    "id": "about-zh",
+    "title": "关于",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "zh",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/about-zh.mdx"
+  },
+  {
+    "id": "about-vi",
+    "title": "Giới thiệu",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/about-vi.mdx"
+  },
+  {
+    "id": "about-kr",
+    "title": "소개",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "kr",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/about-kr.mdx"
+  },
+  {
+    "id": "about-jp",
+    "title": "自己紹介",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "jp",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/about-jp.mdx"
+  },
+  {
+    "id": "about-en",
+    "title": "About",
+    "date": "1970-01-01",
+    "author": "Anonymous",
+    "category": "uncategorized",
+    "lang": "en",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/about-en.mdx"
   }
 ]
