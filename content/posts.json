@@ -73,7 +73,8 @@
       "pipeline"
     ],
     "excerpt": "Hướng dẫn xây dựng quy trình xử lý dữ liệu tự động.",
-    "path": "data-eng/pipeline-vi.mdx"
+    "path": "data-eng/pipeline-vi.mdx",
+    "draft": true
   },
   {
     "id": "best-practices-vi",
@@ -144,7 +145,8 @@
     "lang": "zh",
     "tags": [],
     "excerpt": "",
-    "path": "pages/roadmap-zh.mdx"
+    "path": "pages/roadmap-zh.mdx",
+    "draft": true
   },
   {
     "id": "roadmap-vi",
@@ -155,7 +157,8 @@
     "lang": "vi",
     "tags": [],
     "excerpt": "",
-    "path": "pages/roadmap-vi.mdx"
+    "path": "pages/roadmap-vi.mdx",
+    "draft": true
   },
   {
     "id": "roadmap-kr",
@@ -166,7 +169,8 @@
     "lang": "kr",
     "tags": [],
     "excerpt": "",
-    "path": "pages/roadmap-kr.mdx"
+    "path": "pages/roadmap-kr.mdx",
+    "draft": true
   },
   {
     "id": "roadmap-jp",
@@ -177,7 +181,8 @@
     "lang": "jp",
     "tags": [],
     "excerpt": "",
-    "path": "pages/roadmap-jp.mdx"
+    "path": "pages/roadmap-jp.mdx",
+    "draft": true
   },
   {
     "id": "roadmap-en",
@@ -188,7 +193,8 @@
     "lang": "en",
     "tags": [],
     "excerpt": "",
-    "path": "pages/roadmap-en.mdx"
+    "path": "pages/roadmap-en.mdx",
+    "draft": true
   },
   {
     "id": "contact-zh",
@@ -199,7 +205,8 @@
     "lang": "zh",
     "tags": [],
     "excerpt": "",
-    "path": "pages/contact-zh.mdx"
+    "path": "pages/contact-zh.mdx",
+    "draft": true
   },
   {
     "id": "contact-vi",
@@ -210,7 +217,8 @@
     "lang": "vi",
     "tags": [],
     "excerpt": "",
-    "path": "pages/contact-vi.mdx"
+    "path": "pages/contact-vi.mdx",
+    "draft": true
   },
   {
     "id": "contact-kr",
@@ -221,7 +229,8 @@
     "lang": "kr",
     "tags": [],
     "excerpt": "",
-    "path": "pages/contact-kr.mdx"
+    "path": "pages/contact-kr.mdx",
+    "draft": true
   },
   {
     "id": "contact-jp",
@@ -232,7 +241,8 @@
     "lang": "jp",
     "tags": [],
     "excerpt": "",
-    "path": "pages/contact-jp.mdx"
+    "path": "pages/contact-jp.mdx",
+    "draft": true
   },
   {
     "id": "contact-en",
@@ -243,7 +253,8 @@
     "lang": "en",
     "tags": [],
     "excerpt": "",
-    "path": "pages/contact-en.mdx"
+    "path": "pages/contact-en.mdx",
+    "draft": true
   },
   {
     "id": "about-zh",
@@ -254,7 +265,8 @@
     "lang": "zh",
     "tags": [],
     "excerpt": "",
-    "path": "pages/about-zh.mdx"
+    "path": "pages/about-zh.mdx",
+    "draft": true
   },
   {
     "id": "about-vi",
@@ -265,7 +277,8 @@
     "lang": "vi",
     "tags": [],
     "excerpt": "",
-    "path": "pages/about-vi.mdx"
+    "path": "pages/about-vi.mdx",
+    "draft": true
   },
   {
     "id": "about-kr",
@@ -276,7 +289,8 @@
     "lang": "kr",
     "tags": [],
     "excerpt": "",
-    "path": "pages/about-kr.mdx"
+    "path": "pages/about-kr.mdx",
+    "draft": true
   },
   {
     "id": "about-jp",
@@ -287,7 +301,8 @@
     "lang": "jp",
     "tags": [],
     "excerpt": "",
-    "path": "pages/about-jp.mdx"
+    "path": "pages/about-jp.mdx",
+    "draft": true
   },
   {
     "id": "about-en",

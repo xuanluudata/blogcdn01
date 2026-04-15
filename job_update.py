@@ -53,6 +53,8 @@ def update_posts_json():
                 
                 if 'pinned' in post_data:
                     post_info['pinned'] = post_data['pinned']
+                if 'draft' in post_data:
+                    post_info['draft'] = post_data['draft']
                     
                 posts.append(post_info)
         except Exception as e:
