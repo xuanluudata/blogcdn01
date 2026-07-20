@@ -1,5 +1,44 @@
 [
   {
+    "id": "slide-postgresql-16-edb-vi",
+    "title": "Slide PostgreSQL 16 từ EnterpriseDB",
+    "date": "2026-07-20",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "resource",
+      "postgresql"
+    ],
+    "excerpt": "Slide đào tạo PostgreSQL 16 từ EnterpriseDB",
+    "path": "dba/slide-postgresql-16-edb-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "roadmap-vi",
+    "title": "Roadmap",
+    "date": "2026-07-08",
+    "author": "TheNiceData",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/roadmap-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "about-vi",
+    "title": "Giới thiệu",
+    "date": "2026-07-07",
+    "author": "TheNiceData",
+    "category": "uncategorized",
+    "lang": "vi",
+    "tags": [],
+    "excerpt": "",
+    "path": "pages/about-vi.mdx",
+    "draft": true
+  },
+  {
     "id": "resource-tools-vi",
     "title": "Top 10 công cụ Data FinOps tốt nhất năm 2024",
     "date": "2024-05-23",
@@ -77,6 +116,21 @@
     "draft": true
   },
   {
+    "id": "install-oracle-19c-centos7-1-vi",
+    "title": "Cài đặt Oracle Database 19c trên Oracle Linux 7",
+    "date": "2024-03-21",
+    "author": "Data Architect",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "database",
+      "best-practices"
+    ],
+    "excerpt": "Cài đặt Oracle Database 19c trên Oracle Linux 7 sử dụng File System.",
+    "path": "dba/install-oracle-19c-centos7-1-vi.mdx"
+  },
+  {
     "id": "best-practices-vi",
     "title": "Các quy tắc vàng cho DBA",
     "date": "2024-03-21",
@@ -146,18 +200,6 @@
     "tags": [],
     "excerpt": "",
     "path": "pages/roadmap-zh.mdx",
-    "draft": true
-  },
-  {
-    "id": "roadmap-vi",
-    "title": "Roadmap",
-    "date": "1970-01-01",
-    "author": "Anonymous",
-    "category": "uncategorized",
-    "lang": "vi",
-    "tags": [],
-    "excerpt": "",
-    "path": "pages/roadmap-vi.mdx",
     "draft": true
   },
   {
@@ -269,18 +311,6 @@
     "draft": true
   },
   {
-    "id": "about-vi",
-    "title": "Giới thiệu",
-    "date": "1970-01-01",
-    "author": "Anonymous",
-    "category": "uncategorized",
-    "lang": "vi",
-    "tags": [],
-    "excerpt": "",
-    "path": "pages/about-vi.mdx",
-    "draft": true
-  },
-  {
     "id": "about-kr",
     "title": "소개",
     "date": "1970-01-01",
@@ -313,6 +343,7 @@
     "lang": "en",
     "tags": [],
     "excerpt": "",
-    "path": "pages/about-en.mdx"
+    "path": "pages/about-en.mdx",
+    "draft": true
   }
 ]
