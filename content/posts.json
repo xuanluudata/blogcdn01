@@ -1,5 +1,35 @@
 [
   {
+    "id": "slide-gcp-data-engineer-2026-vi",
+    "title": "Slide tổng hợp Google Professional Cloud Architect 2025",
+    "date": "2026-07-21",
+    "author": "TheNiceData",
+    "category": "data-eng",
+    "lang": "vi",
+    "tags": [
+      "resource",
+      "gcp"
+    ],
+    "excerpt": "Slide đào tạo và ôn tập chứng chỉ Google Professional Data Engineer 2026 từ Google Skills",
+    "path": "data-eng/slide-gcp-data-engineer-2026-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "slide-gcp-cloud-architect-2025-vi",
+    "title": "Slide tổng hợp Google Professional Cloud Architect 2025",
+    "date": "2026-07-21",
+    "author": "TheNiceData",
+    "category": "cloud-arch",
+    "lang": "vi",
+    "tags": [
+      "resource",
+      "gcp"
+    ],
+    "excerpt": "Slide đào tạo và ôn tập chứng chỉ Google Professional Cloud Architect 2025",
+    "path": "cloud-arch/slide-gcp-cloud-architect-2025-vi.mdx",
+    "draft": false
+  },
+  {
     "id": "slide-postgresql-16-edb-vi",
     "title": "Slide PostgreSQL 16 từ EnterpriseDB",
     "date": "2026-07-20",
@@ -37,36 +67,6 @@
     "excerpt": "",
     "path": "pages/about-vi.mdx",
     "draft": true
-  },
-  {
-    "id": "resource-tools-vi",
-    "title": "Top 10 công cụ Data FinOps tốt nhất năm 2024",
-    "date": "2024-05-23",
-    "author": "Data Architect",
-    "category": "data-finops",
-    "lang": "vi",
-    "tags": [
-      "resource",
-      "data-finops",
-      "tools"
-    ],
-    "excerpt": "Đánh giá chi tiết các công cụ giúp tối ưu hóa chi phí dữ liệu trên Cloud.",
-    "path": "data-finops/resource-tools-vi.mdx"
-  },
-  {
-    "id": "resource-learning-vi",
-    "title": "Tổng hợp tài liệu học Data Engineering từ cơ bản đến nâng cao",
-    "date": "2024-05-22",
-    "author": "Data Architect",
-    "category": "data-eng",
-    "lang": "vi",
-    "tags": [
-      "resource",
-      "data-engineering",
-      "learning"
-    ],
-    "excerpt": "Danh sách các khóa học, sách và blog chất lượng nhất để bắt đầu hành trình trở thành Data Engineer.",
-    "path": "data-eng/resource-learning-vi.mdx"
   },
   {
     "id": "airflow-vi",
