@@ -1,35 +1,5 @@
 [
   {
-    "id": "slide-gcp-data-engineer-2026-vi",
-    "title": "Slide tổng hợp Google Professional Data Engineer 2026",
-    "date": "2026-07-21",
-    "author": "TheNiceData",
-    "category": "data-eng",
-    "lang": "vi",
-    "tags": [
-      "resource",
-      "gcp"
-    ],
-    "excerpt": "Slide đào tạo và ôn tập chứng chỉ Google Professional Data Engineer 2026 từ Google Skills",
-    "path": "data-eng/slide-gcp-data-engineer-2026-vi.mdx",
-    "draft": false
-  },
-  {
-    "id": "slide-gcp-cloud-architect-2025-vi",
-    "title": "Slide tổng hợp Google Professional Cloud Architect 2025",
-    "date": "2026-07-21",
-    "author": "TheNiceData",
-    "category": "cloud-arch",
-    "lang": "vi",
-    "tags": [
-      "resource",
-      "gcp"
-    ],
-    "excerpt": "Slide đào tạo và ôn tập chứng chỉ Google Professional Cloud Architect 2025",
-    "path": "cloud-arch/slide-gcp-cloud-architect-2025-vi.mdx",
-    "draft": false
-  },
-  {
     "id": "slide-postgresql-16-edb-vi",
     "title": "Slide PostgreSQL 16 từ EnterpriseDB",
     "date": "2026-07-20",
