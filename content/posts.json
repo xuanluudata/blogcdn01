@@ -1,5 +1,20 @@
 [
   {
+    "id": "book-dba-oracle19c-2day-dba-vi",
+    "title": "Sách Oracle Database 2 Day DBA 19c",
+    "date": "2026-07-22",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "resource"
+    ],
+    "excerpt": "Cuốn sách mở đầu cho việc theo đuổi nghề Oracle DBA",
+    "path": "dba/book-dba-oracle19c-2day-dba-vi.mdx",
+    "draft": false
+  },
+  {
     "id": "slide-postgresql-16-edb-vi",
     "title": "Slide PostgreSQL 16 từ EnterpriseDB",
     "date": "2026-07-20",
