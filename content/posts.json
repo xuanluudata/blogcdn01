@@ -115,21 +115,6 @@
     "draft": true
   },
   {
-    "id": "install-oracle-19c-centos7-1-vi",
-    "title": "Cài đặt Oracle Database 19c trên Oracle Linux 7",
-    "date": "2024-03-21",
-    "author": "Data Architect",
-    "category": "dba",
-    "lang": "vi",
-    "tags": [
-      "dba",
-      "database",
-      "best-practices"
-    ],
-    "excerpt": "Cài đặt Oracle Database 19c trên Oracle Linux 7 sử dụng File System.",
-    "path": "dba/install-oracle-19c-centos7-1-vi.mdx"
-  },
-  {
     "id": "best-practices-vi",
     "title": "Các quy tắc vàng cho DBA",
     "date": "2024-03-21",
