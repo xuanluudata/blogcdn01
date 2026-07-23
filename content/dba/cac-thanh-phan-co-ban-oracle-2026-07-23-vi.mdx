@@ -11,16 +11,29 @@ draft: false
 
 ![](https://xuanluudata.github.io/blogcdn01/photo/dba/oracle_single_instance_architecture_2026-07-23.png "Oracle architecture")
 
-Đây là minh họa các thành phần cơ bản của cơ sở dữ liệu Oracle. Cơ sở dữ liệu Oracle gồm các thành phần cơ bản theo bảng sau.
+Đây là minh họa các thành phần cơ bản của cơ sở dữ liệu Oracle. Cơ sở dữ liệu Oracle gồm các thành phần cơ bản sau:
 
+**🔴 Oracle Software**: Là các file cài đặt của cơ sở dữ liệu Oracle. Chúng nằm tại folder biến môi trường ORACLE\_HOME. Chúng còn bao gồm các công cụ và script phục vụ hoạt động của cơ sở dữ liệu Oracle và hỗ trợ quản trị cơ sở dữ liệu. Nổi bật bao gồm SQL\*Plus, RMAN và AWR scripts.
 
+**🟢 Database**: Là các file vật lý lưu trữ trên ổ cứng. Chúng được chia vào các nhóm với chức năng khác nhau:
 
-| Tên thành phần                                                                                                                                                                                                                                 | Các thành phần con                                                                                                                                                                                                                                                                                                                                                             |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Oracle Software**:**** Là các file cài đặt của cơ sở dữ liệu Oracle. Chúng nằm tại folder biến môi trường ORACLE\_HOME. Chúng còn bao gồm các công cụ và script phục vụ hoạt động của cơ sở dữ liệu Oracle và hỗ trợ quản trị cơ sở dữ liệu. | * **Các file cài đặt*** **SQL\*Plus*** **RMAN*** **...**                                                                                                                                                                                                                                                                                                                       |
-| **Database**: Là các file vật lý lưu trữ trên ổ cứng. Chúng được chia vào các nhóm với chức năng khác nhau.                                                                                                                                    | * **Data Files**: Các file chứa dữ liệu hệ thống và người dùng.* **Control Files**: Các file chứa dữ liệu cấu trúc của cơ sở dữ liệu.* **Online Redo Log Files**: Các file chứa thay đổi của cơ sở dữ liệu.                                                                                                                                                                    |
-| **Oracle Instance**: Đây là các tiến trình chạy và vùng bộ nhớ được sử dụng khi cơ sở dữ liệu hoạt động. Chúng được chia vào 3 nhóm chính                                                                                                      | * **Background Processes**: Các tiến trình nền phục vụ hoạt động của cơ sở dữ liệu* **SGA:** Vùng bộ nhớ dùng chung cho các tiến trình của cơ sở dữ liệu* **Server Processes**: Các tiến trình phục vụ truy cập của người dùng (mỗi tiến trình có vùng bộ nhớ PGA riêng)                                                                                                       |
-| **Oracle Net**: Đây là lớp tiến trình thực hiện quản lý kết nối giữa cơ sở dữ liệu và các ứng dụng của người dùng thông qua mạng.                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                |
-| **Other Files**: Đây là các file chứa các cấu hình, nhật ký hoạt động và sao lưu.                                                                                                                                                              | * **Parameter Files**: Các file chứa tham số hoạt động của Oracle Instance.* **Password File**: File chứa mật khẩu của tài khoản người dùng quản trị.* **Diagnostic Files**: Các file chứa log cảnh báo, log lỗi, log theo dõi và ghi nhật ký lỗi, log xác thực truy cập.* **Backup Directory**: Folder chứa các file archive log, file backup và file dump của cơ sở dữ liệu. |
+* **Data Files**: Các file chứa dữ liệu hệ thống và người dùng.
+* **Control Files**: Các file chứa dữ liệu cấu trúc của cơ sở dữ liệu.
+* **Online Redo Log Files**: Các file chứa thay đổi của cơ sở dữ liệu.
+
+**🔵 Oracle Instance**: Đây là các tiến trình chạy và vùng bộ nhớ được sử dụng khi cơ sở dữ liệu hoạt động. Chúng được chia vào 3 nhóm chính:
+
+* **Background Processes**: Các tiến trình nền phục vụ hoạt động của cơ sở dữ liệu
+* **SGA:** Vùng bộ nhớ dùng chung cho các tiến trình của cơ sở dữ liệu
+* **Server Processes**: Các tiến trình phục vụ truy cập của người dùng (mỗi tiến trình có vùng bộ nhớ PGA riêng)
+
+**🟣 Oracle Net**: Đây là lớp tiến trình thực hiện quản lý kết nối giữa cơ sở dữ liệu và các ứng dụng của người dùng thông qua mạng.
+
+**🟠 Other Files**: Đây là các file chứa các cấu hình, nhật ký hoạt động và sao lưu. Chúng bao gồm:
+
+* **Parameter Files**: Các file chứa tham số hoạt động của Oracle Instance.
+* **Password File**: File chứa mật khẩu của tài khoản người dùng quản trị.
+* **Diagnostic Files**: Các file chứa log cảnh báo, log lỗi, log theo dõi và ghi nhật ký lỗi, log xác thực truy cập.
+* **Backup Directory**: Folder chứa các file archive log, file backup và file dump của cơ sở dữ liệu.
 
 Cảm ơn bạn đã theo dõi bài viết này!
