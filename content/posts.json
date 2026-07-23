@@ -1,5 +1,19 @@
 [
   {
+    "id": "cac-thanh-phan-co-ban-oracle-2026-07-23-vi",
+    "title": "Các thành phần cơ bản của cơ sở dữ liệu Oracle",
+    "date": "2026-07-23",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba"
+    ],
+    "excerpt": "Minh họa mô hình cơ sở dữ liệu Oracle cơ bản",
+    "path": "dba/cac-thanh-phan-co-ban-oracle-2026-07-23-vi.mdx",
+    "draft": false
+  },
+  {
     "id": "book-dba-oracle19c-2day-dba-vi",
     "title": "Sách Oracle Database 2 Day DBA 19c",
     "date": "2026-07-22",
