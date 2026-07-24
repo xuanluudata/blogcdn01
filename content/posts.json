@@ -1,5 +1,19 @@
 [
   {
+    "id": "oracle-duty-2026-07-24-vi",
+    "title": "Nhiệm vụ của Oracle DBA",
+    "date": "2026-07-24",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba"
+    ],
+    "excerpt": "Những công việc mà Oracle DBA cần thực hiện",
+    "path": "dba/oracle-duty-2026-07-24-vi.mdx",
+    "draft": false
+  },
+  {
     "id": "cac-thanh-phan-co-ban-oracle-2026-07-23-vi",
     "title": "Các thành phần cơ bản của cơ sở dữ liệu Oracle",
     "date": "2026-07-23",
