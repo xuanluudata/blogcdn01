@@ -1,5 +1,20 @@
 [
   {
+    "id": "oracle-main-background-processes-2026-07-27-vi",
+    "title": "Các tiến trình nền thiết yếu của Oracle Database Instance",
+    "date": "2026-07-27",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Giới thiệu các tiến trình nền (Background Processes) của Oracle Database Instance",
+    "path": "dba/oracle-main-background-processes-2026-07-27-vi.mdx",
+    "draft": false
+  },
+  {
     "id": "oracle-duty-2026-07-24-vi",
     "title": "Nhiệm vụ của Oracle DBA",
     "date": "2026-07-24",
