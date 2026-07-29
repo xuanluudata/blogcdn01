@@ -1,5 +1,20 @@
 [
   {
+    "id": "oracle-19c-memory-management-2026-07-29-vi",
+    "title": "Ba cấp độ quản lý bộ nhớ của Oracle Database",
+    "date": "2026-07-29",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Giới thiệu 3 cấp độ quản lý bộ nhớ của Oracle Database theo mức độ tự động.",
+    "path": "dba/oracle-19c-memory-management-2026-07-29-vi.mdx",
+    "draft": false
+  },
+  {
     "id": "oracle-19c-sga-components-2026-07-28-vi",
     "title": "Các thành phần của SGA trong Oracle Database 19c",
     "date": "2026-07-28",
@@ -12,21 +27,6 @@
     ],
     "excerpt": "Giới thiệu các thành phần của bộ nhớ SGA trên Oracle Database 19c",
     "path": "dba/oracle-19c-sga-components-2026-07-28-vi.mdx",
-    "draft": false
-  },
-  {
-    "id": "oracle-19c-memory-management-2026-07-29-vi",
-    "title": "Ba cấp độ quản lý bộ nhớ của Oracle Database",
-    "date": "2026-07-28",
-    "author": "TheNiceData",
-    "category": "dba",
-    "lang": "vi",
-    "tags": [
-      "dba",
-      "oracle"
-    ],
-    "excerpt": "Giới thiệu 3 cấp độ quản lý bộ nhớ của Oracle Database theo mức độ tự động.",
-    "path": "dba/oracle-19c-memory-management-2026-07-29-vi.mdx",
     "draft": false
   },
   {
