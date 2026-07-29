@@ -15,6 +15,21 @@
     "draft": false
   },
   {
+    "id": "oracle-19c-memory-management-2026-07-29-vi",
+    "title": "Ba cấp độ quản lý bộ nhớ của Oracle Database",
+    "date": "2026-07-28",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Giới thiệu 3 cấp độ quản lý bộ nhớ của Oracle Database theo mức độ tự động.",
+    "path": "dba/oracle-19c-memory-management-2026-07-29-vi.mdx",
+    "draft": false
+  },
+  {
     "id": "oracle-main-background-processes-2026-07-27-vi",
     "title": "Các tiến trình nền thiết yếu của Oracle Database Instance",
     "date": "2026-07-27",
