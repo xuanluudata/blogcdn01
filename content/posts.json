@@ -1,5 +1,20 @@
 [
   {
+    "id": "oracle-database-storage-structure-2026-07-30-vi",
+    "title": "Cấu trúc lưu trữ dữ liệu của Oracle Database",
+    "date": "2026-07-30",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Giới thiệu cấu trúc lưu trữ logic và vật lý của Oracle Database.",
+    "path": "dba/oracle-database-storage-structure-2026-07-30-vi.mdx",
+    "draft": false
+  },
+  {
     "id": "oracle-19c-memory-management-2026-07-29-vi",
     "title": "Ba cấp độ quản lý bộ nhớ của Oracle Database",
     "date": "2026-07-29",
