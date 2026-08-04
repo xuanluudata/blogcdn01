@@ -1,5 +1,20 @@
 [
   {
+    "id": "oracle-database-default-tablespace-2026-08-04-vi",
+    "title": "Các tablespace mặc định của Oracle Database",
+    "date": "2026-08-04",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Giới thiệu 6 không gian bảng (tablespace) mặc định của Oracle Database.",
+    "path": "dba/oracle-database-default-tablespace-2026-08-04-vi.mdx",
+    "draft": false
+  },
+  {
     "id": "oracle-database-storage-structure-2026-07-30-vi",
     "title": "Cấu trúc lưu trữ dữ liệu của Oracle Database",
     "date": "2026-07-30",
