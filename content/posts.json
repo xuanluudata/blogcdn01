@@ -1,7 +1,7 @@
 [
   {
     "id": "oracle-database-predefined-roles-2026-08-06-vi",
-    "title": "3 nhóm quyền (role) thường dùng của Oracle Database",
+    "title": "Các nhóm quyền (role) thường dùng của Oracle Database",
     "date": "2026-08-06",
     "author": "TheNiceData",
     "category": "dba",
@@ -10,7 +10,7 @@
       "dba",
       "oracle"
     ],
-    "excerpt": "Giới thiệu 3 nhóm quyền thường được cấp cho người dùng của Oracle Database.",
+    "excerpt": "Giới thiệu các nhóm quyền thường được cấp cho người dùng của Oracle Database.",
     "path": "dba/oracle-database-predefined-roles-2026-08-06-vi.mdx",
     "draft": false
   },
