@@ -15,6 +15,23 @@
     "draft": false
   },
   {
+    "id": "compare-oracle-mysql-postgres-cluster-2026-08-07-vi",
+    "title": "So sánh mô hình Database Cluster của Oracle, MySQL và PostgreSQL",
+    "date": "2026-08-06",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "oracle",
+      "mysql",
+      "postgresql"
+    ],
+    "excerpt": "Giới thiệu cơ bản về điểm khác biệt giữa kiến trúc Database Cluster phổ biến nhất của Oracle, MySQL và PostgreSQL.",
+    "path": "dba/compare-oracle-mysql-postgres-cluster-2026-08-07-vi.mdx",
+    "draft": false
+  },
+  {
     "id": "oracle-database-create_user-2026-08-05-vi",
     "title": "Tạo User trong Oracle Database",
     "date": "2026-08-05",
