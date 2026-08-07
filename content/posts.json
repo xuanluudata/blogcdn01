@@ -1,5 +1,22 @@
 [
   {
+    "id": "compare-oracle-mysql-postgres-cluster-2026-08-07-vi",
+    "title": "So sánh mô hình Database Cluster của Oracle, MySQL và PostgreSQL",
+    "date": "2026-08-07",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "oracle",
+      "mysql",
+      "postgresql"
+    ],
+    "excerpt": "Giới thiệu cơ bản về điểm khác biệt giữa kiến trúc Database Cluster phổ biến nhất của Oracle, MySQL và PostgreSQL.",
+    "path": "dba/compare-oracle-mysql-postgres-cluster-2026-08-07-vi.mdx",
+    "draft": false
+  },
+  {
     "id": "oracle-database-predefined-roles-2026-08-06-vi",
     "title": "Các nhóm quyền (role) thường dùng của Oracle Database",
     "date": "2026-08-06",
@@ -12,23 +29,6 @@
     ],
     "excerpt": "Giới thiệu các nhóm quyền thường được cấp cho người dùng của Oracle Database.",
     "path": "dba/oracle-database-predefined-roles-2026-08-06-vi.mdx",
-    "draft": false
-  },
-  {
-    "id": "compare-oracle-mysql-postgres-cluster-2026-08-07-vi",
-    "title": "So sánh mô hình Database Cluster của Oracle, MySQL và PostgreSQL",
-    "date": "2026-08-06",
-    "author": "TheNiceData",
-    "category": "dba",
-    "lang": "vi",
-    "tags": [
-      "dba",
-      "oracle",
-      "mysql",
-      "postgresql"
-    ],
-    "excerpt": "Giới thiệu cơ bản về điểm khác biệt giữa kiến trúc Database Cluster phổ biến nhất của Oracle, MySQL và PostgreSQL.",
-    "path": "dba/compare-oracle-mysql-postgres-cluster-2026-08-07-vi.mdx",
     "draft": false
   },
   {
