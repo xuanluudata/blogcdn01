@@ -1,5 +1,35 @@
 [
   {
+    "id": "postgresql-upgrade-methods-2026-08-11-vi",
+    "title": "Các phương pháp nâng cấp cơ sở dữ liệu PostgreSQL",
+    "date": "2026-08-11",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Giới thiệu về quản lý phiên bản và các phương pháp nâng cấp cơ sở dữ liệu PostgreSQL.",
+    "path": "dba/postgresql-upgrade-methods-2026-08-11-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "postgresql-upgrade-methods-2026-08-11-en",
+    "title": "PostgreSQL Database Upgrade Methods",
+    "date": "2026-08-11",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Introduce about PostgreSQL Database version management and 3 ways to upgrade major releases.",
+    "path": "dba/postgresql-upgrade-methods-2026-08-11-en.mdx",
+    "draft": false
+  },
+  {
     "id": "postgresql-duties-2026-08-10-vi",
     "title": "Nhiệm vụ của PostgreSQL DBA",
     "date": "2026-08-10",
@@ -12,6 +42,21 @@
     ],
     "excerpt": "Những công việc mà PostgreSQL DBA cần thực hiện.",
     "path": "dba/postgresql-duties-2026-08-10-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "postgresql-duties-2026-08-10-en",
+    "title": "PostgreSQL DBA Duties",
+    "date": "2026-08-10",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "What PostgreSQL DBA does everyday.",
+    "path": "dba/postgresql-duties-2026-08-10-en.mdx",
     "draft": false
   },
   {
@@ -32,6 +77,23 @@
     "draft": false
   },
   {
+    "id": "compare-oracle-mysql-postgres-cluster-2026-08-07-en",
+    "title": "Compare  Database Cluster Architectures of Oracle, MySQL and PostgreSQL",
+    "date": "2026-08-07",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "oracle",
+      "mysql",
+      "postgresql"
+    ],
+    "excerpt": "Introduce fundamentally about popular database cluster architectures of Oracle, MySQL and PostgreSQL.",
+    "path": "dba/compare-oracle-mysql-postgres-cluster-2026-08-07-en.mdx",
+    "draft": false
+  },
+  {
     "id": "oracle-database-predefined-roles-2026-08-06-vi",
     "title": "Các nhóm quyền (role) thường dùng của Oracle Database",
     "date": "2026-08-06",
@@ -44,6 +106,21 @@
     ],
     "excerpt": "Giới thiệu các nhóm quyền thường được cấp cho người dùng của Oracle Database.",
     "path": "dba/oracle-database-predefined-roles-2026-08-06-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "oracle-database-predefined-roles-2026-08-06-en",
+    "title": "Usually Oracle Database User Roles",
+    "date": "2026-08-06",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Introduce about usually user roles for Oracle Database.",
+    "path": "dba/oracle-database-predefined-roles-2026-08-06-en.mdx",
     "draft": false
   },
   {
@@ -62,6 +139,21 @@
     "draft": false
   },
   {
+    "id": "oracle-database-create_user-2026-08-05-en",
+    "title": "How to create user in Oracle Database",
+    "date": "2026-08-05",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Introduce about main points in creating user in Oracle Database.",
+    "path": "dba/oracle-database-create_user-2026-08-05-en.mdx",
+    "draft": false
+  },
+  {
     "id": "oracle-database-default-tablespace-2026-08-04-vi",
     "title": "Các tablespace mặc định của Oracle Database",
     "date": "2026-08-04",
@@ -74,6 +166,21 @@
     ],
     "excerpt": "Giới thiệu 6 không gian bảng (tablespace) mặc định của Oracle Database.",
     "path": "dba/oracle-database-default-tablespace-2026-08-04-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "oracle-database-default-tablespace-2026-08-04-en",
+    "title": "Default tablespaces of Oracle Database",
+    "date": "2026-08-04",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Introduce 6 default tablespaces of Oracle Database.",
+    "path": "dba/oracle-database-default-tablespace-2026-08-04-en.mdx",
     "draft": false
   },
   {
@@ -92,6 +199,21 @@
     "draft": false
   },
   {
+    "id": "oracle-database-storage-structure-2026-07-30-en",
+    "title": "Data storage structure of Oracle Database",
+    "date": "2026-07-30",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Introduce physical and logical data storage structure of Oracle Database.",
+    "path": "dba/oracle-database-storage-structure-2026-07-30-en.mdx",
+    "draft": false
+  },
+  {
     "id": "oracle-19c-memory-management-2026-07-29-vi",
     "title": "Ba cấp độ quản lý bộ nhớ của Oracle Database",
     "date": "2026-07-29",
@@ -104,6 +226,21 @@
     ],
     "excerpt": "Giới thiệu 3 cấp độ quản lý bộ nhớ của Oracle Database theo mức độ tự động.",
     "path": "dba/oracle-19c-memory-management-2026-07-29-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "oracle-19c-memory-management-2026-07-29-en",
+    "title": "3-level of Memory Management in Oracle Database",
+    "date": "2026-07-29",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Introduce 3-level of Memory Management in Oracle Database depends on automatical technology.",
+    "path": "dba/oracle-19c-memory-management-2026-07-29-en.mdx",
     "draft": false
   },
   {
@@ -122,6 +259,21 @@
     "draft": false
   },
   {
+    "id": "oracle-19c-sga-components-2026-07-28-en",
+    "title": "What SGA includes in Oracle Database 19c",
+    "date": "2026-07-28",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Introduce elements in SGA memory of Oracle Database 19c",
+    "path": "dba/oracle-19c-sga-components-2026-07-28-en.mdx",
+    "draft": false
+  },
+  {
     "id": "oracle-main-background-processes-2026-07-27-vi",
     "title": "Các tiến trình nền thiết yếu của Oracle Database Instance",
     "date": "2026-07-27",
@@ -134,6 +286,21 @@
     ],
     "excerpt": "Giới thiệu các tiến trình nền (Background Processes) của Oracle Database Instance",
     "path": "dba/oracle-main-background-processes-2026-07-27-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "oracle-main-background-processes-2026-07-27-en",
+    "title": "Essential Background Processes of Oracle Database Instance",
+    "date": "2026-07-27",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "oracle"
+    ],
+    "excerpt": "Introduce essential background processes of Oracle Database Instance",
+    "path": "dba/oracle-main-background-processes-2026-07-27-en.mdx",
     "draft": false
   },
   {
