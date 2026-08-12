@@ -1,5 +1,35 @@
 [
   {
+    "id": "postgresql-parameter-fundamental-2026-08-12-vi",
+    "title": "Tổng quan về quản lý cấu hình Database PostgreSQL",
+    "date": "2026-08-12",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Giới thiệu phương pháp cấu hình Database PostgreSQL và các nhóm tham số cấu hình chính.",
+    "path": "dba/postgresql-parameter-fundamental-2026-08-12-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "postgresql-parameter-fundamental-2026-08-12-en",
+    "title": "Fundamental PostgreSQL Database Parameters",
+    "date": "2026-08-12",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Introduce about Parameter Management and Main Parameter Groups in PostgreSQL Database.",
+    "path": "dba/postgresql-parameter-fundamental-2026-08-12-en.mdx",
+    "draft": false
+  },
+  {
     "id": "postgresql-upgrade-methods-2026-08-11-vi",
     "title": "Các phương pháp nâng cấp cơ sở dữ liệu PostgreSQL",
     "date": "2026-08-11",
