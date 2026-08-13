@@ -1,5 +1,35 @@
 [
   {
+    "id": "postgresql-client-authentication-2026-08-13-vi",
+    "title": "Giới thiệu về xác thực truy cập trên PostgreSQL",
+    "date": "2026-08-13",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Hướng dẫn cấu hình xác thực truy cập trên PostgreSQL và phân biệt các phương pháp xác thực người dùng phổ biến.",
+    "path": "dba/postgresql-client-authentication-2026-08-13-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "postgresql-client-authentication-2026-08-13-en",
+    "title": "Client Authentication in PostgreSQL",
+    "date": "2026-08-13",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "A comprehensive guide to configuring client access and understanding popular authentication methods.",
+    "path": "dba/postgresql-client-authentication-2026-08-13-en.mdx",
+    "draft": false
+  },
+  {
     "id": "postgresql-parameter-fundamental-2026-08-12-vi",
     "title": "Tổng quan về quản lý cấu hình Database PostgreSQL",
     "date": "2026-08-12",
