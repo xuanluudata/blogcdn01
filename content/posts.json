@@ -1,5 +1,35 @@
 [
   {
+    "id": "postgresql-vacuum-maintenance-2026-08-14-vi",
+    "title": "Giới thiệu VACUUM trong PostgreSQL Database",
+    "date": "2026-08-14",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Tại sao cần VACUUM và VACUUM hoạt động như thế nào?",
+    "path": "dba/postgresql-vacuum-maintenance-2026-08-14-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "postgresql-vacuum-maintenance-2026-08-14-en",
+    "title": "PostgreSQL Vacuum Maintenance",
+    "date": "2026-08-14",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Why, How & When to Vacuum Your PostgreSQL Database?",
+    "path": "dba/postgresql-vacuum-maintenance-2026-08-14-en.mdx",
+    "draft": false
+  },
+  {
     "id": "postgresql-client-authentication-2026-08-13-vi",
     "title": "Giới thiệu về xác thực truy cập trên PostgreSQL",
     "date": "2026-08-13",
