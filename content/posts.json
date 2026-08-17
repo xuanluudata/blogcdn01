@@ -1,5 +1,35 @@
 [
   {
+    "id": "postgresql-backup-restore-2026-08-17-vi",
+    "title": "Sao lưu và khôi phục trên PostgreSQL",
+    "date": "2026-08-17",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Giới thiệu 3 phương pháp sao lưu và khôi phục PostgreSQL. So sánh chi tiết ưu nhược điểm và minh họa nguyên lý.",
+    "path": "dba/postgresql-backup-restore-2026-08-17-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "postgresql-backup-restore-2026-08-17-en",
+    "title": "PostgreSQL Backup and Restore",
+    "date": "2026-08-17",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Introduce to backup and restore PostgreSQL Database. Three common methods with detail comparison for you.",
+    "path": "dba/postgresql-backup-restore-2026-08-17-en.mdx",
+    "draft": false
+  },
+  {
     "id": "postgresql-vacuum-maintenance-2026-08-14-vi",
     "title": "Giới thiệu VACUUM trong PostgreSQL Database",
     "date": "2026-08-14",
