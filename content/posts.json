@@ -1,5 +1,35 @@
 [
   {
+    "id": "postgresql-ha-lb-2026-08-18-vi",
+    "title": "PostgreSQL High Availability, Load Balancing, and Replication",
+    "date": "2026-08-18",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Các nguyên lý xây dựng PostgreSQL chịu tải và chịu lỗi cao.",
+    "path": "dba/postgresql-ha-lb-2026-08-18-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "postgresql-ha-lb-2026-08-18-en",
+    "title": "PostgreSQL High Availability, Load Balancing, and Replication",
+    "date": "2026-08-18",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "8 Ways to Keep Servers in Sync.",
+    "path": "dba/postgresql-ha-lb-2026-08-18-en.mdx",
+    "draft": false
+  },
+  {
     "id": "postgresql-backup-restore-2026-08-17-vi",
     "title": "Sao lưu và khôi phục trên PostgreSQL",
     "date": "2026-08-17",
