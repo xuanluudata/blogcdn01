@@ -1,5 +1,35 @@
 [
   {
+    "id": "postgresql-monitor-activity-2026-08-19-vi",
+    "title": "Giám sát hoạt động của PostgreSQL Database",
+    "date": "2026-08-19",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Các phương pháp theo dõi hoạt động của cơ sở dữ liệu PostgreSQL.",
+    "path": "dba/postgresql-monitor-activity-2026-08-19-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "postgresql-monitor-activity-2026-08-19-en",
+    "title": "Giám sát hoạt động của PostgreSQL Database",
+    "date": "2026-08-19",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "A database administrator frequently wonders: What is the system doing right now?",
+    "path": "dba/postgresql-monitor-activity-2026-08-19-en.mdx",
+    "draft": false
+  },
+  {
     "id": "postgresql-ha-lb-2026-08-18-vi",
     "title": "PostgreSQL High Availability, Load Balancing, and Replication",
     "date": "2026-08-18",
