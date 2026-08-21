@@ -1,5 +1,35 @@
 [
   {
+    "id": "postgresql-client-apps-2026-08-20-vi",
+    "title": "Các công cụ người dùng của PostgreSQL",
+    "date": "2026-08-20",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Giới thiệu một số tool đơn giản và hiệu quả để quản trị PostgreSQL từ máy người dùng.",
+    "path": "dba/postgresql-client-apps-2026-08-20-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "postgresql-client-apps-2026-08-20-en",
+    "title": "PostgreSQL Client Applications",
+    "date": "2026-08-20",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "This part contains reference information for PostgreSQL client applications and utilities.",
+    "path": "dba/postgresql-client-apps-2026-08-20-en.mdx",
+    "draft": false
+  },
+  {
     "id": "postgresql-monitor-activity-2026-08-19-vi",
     "title": "Giám sát hoạt động của PostgreSQL Database",
     "date": "2026-08-19",
