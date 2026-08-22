@@ -1,5 +1,35 @@
 [
   {
+    "id": "postgresql-server-apps-2026-08-21-vi",
+    "title": "Các công cụ hỗ trợ trên server của PostgreSQL",
+    "date": "2026-08-20",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Giới thiệu một số tool đơn giản và hiệu quả để quản trị PostgreSQL trên server.",
+    "path": "dba/postgresql-server-apps-2026-08-21-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "postgresql-server-apps-2026-08-21-en",
+    "title": "PostgreSQL Server Applications",
+    "date": "2026-08-20",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "These commands can only be run usefully on the host where the database server resides.",
+    "path": "dba/postgresql-server-apps-2026-08-21-en.mdx",
+    "draft": false
+  },
+  {
     "id": "postgresql-client-apps-2026-08-20-vi",
     "title": "Các công cụ người dùng của PostgreSQL",
     "date": "2026-08-20",
