@@ -1,5 +1,35 @@
 [
   {
+    "id": "postgresql-ubuntu-server-apps-2026-08-24-vi",
+    "title": "Các công cụ hỗ trợ trên hệ điều hành Ubuntu/Debian dành cho PostgreSQL",
+    "date": "2026-08-24",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "vi",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "Các tool hiệu quả để quản trị PostgreSQL trên server Ubuntu/Debian dựa trên gói postgresql-common.",
+    "path": "dba/postgresql-ubuntu-server-apps-2026-08-24-vi.mdx",
+    "draft": false
+  },
+  {
+    "id": "postgresql-ubuntu-server-apps-2026-08-24-en",
+    "title": "Extended PostgreSQL Server Applications on Ubuntu/Debian",
+    "date": "2026-08-24",
+    "author": "TheNiceData",
+    "category": "dba",
+    "lang": "en",
+    "tags": [
+      "dba",
+      "postgresql"
+    ],
+    "excerpt": "The postgresql-common package provides a structure under which multiple versions of PostgreSQL may be installed and/or multiple clusters maintained at one time..",
+    "path": "dba/postgresql-ubuntu-server-apps-2026-08-24-en.mdx",
+    "draft": false
+  },
+  {
     "id": "postgresql-server-apps-2026-08-21-vi",
     "title": "Các công cụ hỗ trợ trên server của PostgreSQL",
     "date": "2026-08-20",
